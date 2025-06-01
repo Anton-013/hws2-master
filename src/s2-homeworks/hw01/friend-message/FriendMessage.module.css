@@ -5,6 +5,7 @@
 
 .friendImageAndText {
     display: flex;
+    align-items: end;
 }
 
 .friendImageAndText img {
@@ -13,20 +14,23 @@
 }
 
 .friendText {
-    padding: 8px 12px 8px 20px;
+    padding: 16px 8px 16px 8px;
     position: relative;
+    background-color: #f5f7fb;
+    border-radius: 16px 16px 16px 0;
+    margin-left: 20px;
+    margin-bottom: 5px;
 }
 
 .friendText:after {
     content: '';
     position: absolute;
-    z-index: -1;
-    top: 0;
-    right: 0;
+    background-color: #f5f7fb;
+    width: 11px;
+    height: 12px;
+    clip-path: polygon(100% 0, 0% 100%, 100% 100%);
     bottom: 0;
-    left: 10px;
-    background-color: #F5F7FB;
-    border-radius: 10px;
+    left: -10px;
 }
 
 .friendName {
