@@ -1,12 +1,34 @@
 .sidebar {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 320px;
+    height: 100vh;
+    background-color: gold;
+    z-index: 100000;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    box-sizing: border-box;
+
     
 }
 
 .sidebar.open {
-    background-color: gold;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    transform: translateX(0);
 }
 
 .background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 99999;
 }
 
 .nav {
@@ -23,7 +45,13 @@
     background-color: black;
 }
 .close {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .close img {
+
 }
