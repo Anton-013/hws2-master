@@ -1,7 +1,9 @@
 .sidebar {
+    
 }
 
 .sidebar.open {
+    background-color: gold;
 }
 
 .background {
@@ -11,12 +13,14 @@
 }
 
 .nav a {
+    background-color: red;
 }
 
 .nav a:hover {
 }
 
 .nav a.active {
+    background-color: black;
 }
 .close {
 }
