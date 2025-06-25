@@ -5,13 +5,13 @@
     left: 0;
     width: 320px;
     height: 100vh;
-    background-color: gold;
+    background-color: white;
     z-index: 100000;
     box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
-    padding: 20px;
+    padding: 20px 20px 20px 70px;
     box-sizing: border-box;
-
-    
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-out;
 }
 
 .sidebar.open {
@@ -32,26 +32,49 @@
 }
 
 .nav {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 1;
+    color: black;
 }
 
 .nav a {
-    background-color: red;
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.2s ease, text-decoration 0.2s;
+    position: relative;
 }
 
 .nav a:hover {
+    color: #58ACFF;
 }
 
 .nav a.active {
-    background-color: black;
+    color: #0059B2;
+    text-decoration: underline;
 }
+
 .close {
     width: 24px;
     height: 24px;
+    border: none;
+    background-color: white;
+    align-self: flex-end;
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+    margin-right: 24px;
+    transition: transform 0.2s ease;
 }
 
-.close img {
-
+.close:hover {
+    transform: scale(1.1);
 }
+
+.close img {}
