@@ -1,19 +1,19 @@
 .App {
-    --header_height: 60px;
-    max-width: 1280px;
-    margin: 0 auto;
-    padding: 2rem;
+  --header_height: 60px;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
 }
 
 .hw {
-    margin-top: 30px;
-    margin-bottom: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .hwTitle {
-    font-family: Montserrat;
-    font-weight: 600;
-    font-size: 22px;
-    line-height: 100%;
-    letter-spacing: 0%;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 100%;
+  letter-spacing: 0%;
 }
