@@ -1,27 +1,47 @@
-.tech {
-    width: 50vw;
-}
-
+.tech,
 .developer {
-
+  width: 48%;
+  display: flex;
+  align-items: center;
+  padding-left: 18px;
 }
 
-.techHeader {
-    width: 50vw;
-}
-
+.techHeader,
 .developerHeader {
-
+  width: 50%;
+  display: flex;
+  align-items: center;
+  background-color: #e5e5e5;
+  padding-left: 18px;
 }
 
 .row {
-    display: flex;
+  display: flex;
+  width: 606px;
+  height: 48px;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  align-items: center;
+  border-bottom: 1px solid #e5e5e5;
 }
 
 .rowHeader {
-    display: flex;
+  display: flex;
+  width: 606px;
+  height: 36px;
+  font-family: Roboto, sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1;
+  vertical-align: middle;
+  margin-top: 36px;
 }
 
 .loading {
-
+  text-align: center;
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
 }
